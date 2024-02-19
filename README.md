@@ -13,6 +13,21 @@ Ok, let me make it easy !!!
 
 A container is a bundle of Application, Application libraries required to run your application and the minimum system dependencies.
 
+
+## What is virtualization?
+Logically dividing big machine into multiple virtual machines so that each virtual machine acts as new server and we can deploy any kind of applications in it. For this first we install any virtualization software on top of base OS. This virtualization software will divide base machine resources in to logical components. In a simple terms, logically dividing one machine into multiple machines we call virtualization.
+
+## What is the importance of volumes in Docker?
+• Volume is a directory inside your container
+• First declare directory as a volume and then share volume
+• Even if we stop container, still we can access volume
+• Volume will be created in one container
+• You can share one volume across any no of containers
+• Volume will not be included when you update an image
+• Map volumes in two ways
+• Share host – container
+• Share container – container
+
 ![Screenshot 2023-02-07 at 7 18 10 PM](https://user-images.githubusercontent.com/43399466/217262726-7cabcb5b-074d-45cc-950e-84f7119e7162.png)
 
 
